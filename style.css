@@ -27,7 +27,7 @@
     font-family: Arial;
     padding-left: 20px;
     float: left;
-    padding-top: 10px;
+    padding-top: 14px;
 }
 
 .menu{
@@ -45,7 +45,7 @@ ul{
 
 ul li{
     list-style: none;
-    margin-left: 62px;
+    margin-left: 32px;
     margin-top: 27px;
     font-size: 14px;
 
@@ -262,4 +262,10 @@ ul li a:hover{
 
 .icon ion-icon:hover{
     color: darkcyan;
+}
+
+@media only screen and (max-width: 620px){
+    .main{
+        width: 100%;
+    }
 }
